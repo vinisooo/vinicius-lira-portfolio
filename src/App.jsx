@@ -1,24 +1,24 @@
 import logo from './logo.svg';
+import Aside from './components/Aside';
+import { ThemeProvider } from 'styled-components';
+import { lightTheme, darkTheme } from "./Styles/Themes";
+import { useState } from 'react';
 
-function App() {
+const App = () => {
+
+  const [ theme, setTheme ] = useState("dark");
+
+  const handleTheme = () =>{
+    setTheme( theme === "light" ? "dark" : "light");
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
+        <Aside changeThemeFunction={handleTheme} theme={theme} />
+      </ThemeProvider>
     </div>
   );
 }
 
-export default App;
+export default App;  
