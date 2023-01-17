@@ -13,6 +13,8 @@ export const StyledAside = styled.aside`
     position: fixed;
     left: 0;
 
+    z-index: 5;
+
     @media (min-width: 700px) {
         display: flex;
         flex-direction: column;
