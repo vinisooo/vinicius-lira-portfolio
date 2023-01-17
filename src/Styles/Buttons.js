@@ -74,6 +74,8 @@ export const LinkDefault = styled.a`
         margin-left: 10px;
 
         transition: 0.3s ease;
+
+        pointer-events: none;
     }
     overflow: hidden;
 
