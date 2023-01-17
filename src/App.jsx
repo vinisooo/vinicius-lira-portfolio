@@ -8,10 +8,12 @@ import { useState } from 'react';
 
 const App = () => {
 
-  const [ theme, setTheme ] = useState("dark");
+  const [ theme, setTheme ] = useState(localStorage.getItem("@vinicius-lira: theme-preference") || "light");
 
   const handleTheme = () =>{
-    setTheme( theme === "light" ? "dark" : "light");
+    const savedTheme = theme === "light" ? "dark" : "light";
+    setTheme(savedTheme);
+    localStorage.setItem("@vinicius-lira: theme-preference", savedTheme);
   }
 
   return (
