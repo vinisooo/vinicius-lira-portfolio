@@ -52,6 +52,11 @@ export const GlobalStyles = createGlobalStyle`
 
     button{
         cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    button:active{
+        transform: translateY(3px);
     }
 
     :root{
