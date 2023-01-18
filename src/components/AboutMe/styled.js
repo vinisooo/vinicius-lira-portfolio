@@ -90,6 +90,8 @@ export const StyledAboutMe = styled.section`
 
             line-height: 150%;
             font-size: 14px;
+
+            margin-bottom: 10px;
         }
     }
 

@@ -29,8 +29,9 @@ const AboutMe = () => {
                         web responsivos e funcionais, com habilidades em HTML, CSS, JavaScript, Typescript e React, além de diversas ferramentas
                         que auxiliam no desenvolvimento de aplicações. Além disso, sou familiarizado com ferramentas de design, o que me permite criar layouts
                         e interfaces visuais atraentes.
+                    </p>
                     <p>
-                        Estou sempre em busca de novos desafios e oportunidades para trabalhar em projetos em equipe e colaborar com outros profissionais da área. Vamos trabalhar juntos?</p>
+                        Estou sempre em busca de novos desafios e oportunidades para trabalhar em projetos em equipe e colaborar com outros profissionais da área. Vamos trabalhar juntos?
                     </p>
                 </div>
             </Container>
