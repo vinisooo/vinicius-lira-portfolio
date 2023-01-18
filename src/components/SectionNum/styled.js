@@ -10,6 +10,12 @@ export const StyledSectionNum = styled.div`
     top: 15px;
     left: 15px;
 
+    transition: 0.3s ease;
+
+    :hover{
+        filter: brightness(1.1);
+    }
+
     div{
         display: flex;
         gap: 6px;
