@@ -18,7 +18,7 @@ const Card = ({children, title, description}) => {
             </div>
         </StyledCard>
     )
-
+ 
 }
 
 export default Card
