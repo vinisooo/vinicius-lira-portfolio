@@ -7,10 +7,15 @@ const AboutMe = () => {
     return(
         <StyledAboutMe>
             <Container>
-                <Card>
-                    <span>span 1</span>
-                    <span>span 2</span>
-                </Card>
+                <div className="dev">
+                    <figure>
+                        <img src="https://github.com/vinisooo.png" alt="Vinícius Lira" />
+                    </figure>
+                    <Card>
+                        <span>span 1</span>
+                        <span>span 2</span>
+                    </Card>
+                </div>
             </Container>
         </StyledAboutMe>
     )
