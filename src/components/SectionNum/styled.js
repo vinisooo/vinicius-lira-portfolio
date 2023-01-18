@@ -12,6 +12,7 @@ export const StyledSectionNum = styled.div`
 
     div{
         display: flex;
+        gap: 6px;
         align-items: center;
     
         width: 100%;
@@ -32,7 +33,7 @@ export const StyledSectionNum = styled.div`
         font-size: 12px;
 
         position: relative;
-       
+        white-space: nowrap;
     }
 
     span{
