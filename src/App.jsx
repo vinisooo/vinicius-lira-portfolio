@@ -5,6 +5,7 @@ import Header from './components/Header';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./Styles/Themes";
 import { useState } from 'react';
+import AboutMe from './components/AboutMe/inde';
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
       <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
         <Aside changeThemeFunction={handleTheme} theme={theme} />
         <Header theme={theme} />
+        <AboutMe/>
       </ThemeProvider>
     </div>
   );
