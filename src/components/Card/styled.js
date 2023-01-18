@@ -21,24 +21,6 @@ export const StyledCard = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    .left-img{
-
-        pointer-events: none;
-
-        width: 34px;
-        height: 100%;
-        overflow: hidden;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img{
-            object-fit: cover;
-            height: 100%;
-        }
-    }
-
     > div{
         height: 100%;
         width: 100%;
@@ -80,6 +62,26 @@ export const StyledCard = styled.div`
             font-weight: 300;
         }
     }
+
+    .left-img{
+
+        pointer-events: none;
+
+        width: 34px;
+        height: 100%;
+        overflow: hidden;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
+
+            img{
+                object-fit: cover;
+                height: 100%;
+            }
+        }
 
     :hover{
         transform: translateY(3px) translateX(-3px);
