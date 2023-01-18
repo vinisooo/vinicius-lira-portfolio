@@ -44,6 +44,9 @@ export const StyledAboutMe = styled.section`
 
     .dev > figure{
 
+        background: rgb(60,110,113);
+        background: linear-gradient(90deg, rgba(60,110,113,1) 0%, rgba(112,174,110,1) 50%, rgba(40,75,99,1) 100%);
+        
         width: 250px;
         height: 250px;
 
@@ -60,6 +63,9 @@ export const StyledAboutMe = styled.section`
         transition: 0.3s ease;
 
         img{
+            opacity: 0.8;
+
+            pointer-events: none;
             object-fit: cover;
             width: 110%;
             height: 110%;
@@ -67,11 +73,19 @@ export const StyledAboutMe = styled.section`
             transform: rotate(0deg !important);
 
             animation: notSpinningPic 5s linear infinite;
+
+            transition: 0.3s ease;
         }
     }
 
     figure:hover{
         border-radius: 51% 49% 41% 59% / 48% 42% 58% 52%;
+
+        background: none;
+
+        img{
+            filter: contrast(1.3);
+        }
     }
 
     .about-me-text{
