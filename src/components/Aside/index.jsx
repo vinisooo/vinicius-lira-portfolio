@@ -13,7 +13,7 @@ const Aside = () => {
 
     return(
         <StyledAside>
-            <button onClick={changeThemeFunction}>
+            <button onClick={handleTheme}>
                 <img src={theme === "light" ? sun : moon}/>
             </button>
             
