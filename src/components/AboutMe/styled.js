@@ -82,7 +82,7 @@ export const StyledAboutMe = styled.section`
         font-family: 'Chivo Mono', monospace;
         font-weight: 500;
 
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         }
 
         p{
