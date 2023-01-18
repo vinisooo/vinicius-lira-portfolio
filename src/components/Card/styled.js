@@ -21,7 +21,7 @@ export const StyledCard = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    figure{
+    .left-img{
 
         pointer-events: none;
 

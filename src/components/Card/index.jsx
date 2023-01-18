@@ -6,9 +6,9 @@ const Card = ({children, title, description}) => {
 
     return(
         <StyledCard>
-            <figure>
+            <div className="left-img">
                 <img src={darkBG} />
-            </figure>
+            </div>
             <div>
                 <h4>{title}</h4>
                 <p>{description}</p>
