@@ -8,7 +8,12 @@ import { StyledHeader } from './styled';
 
 import SectionNumber from "../SectionNum";
 
-const Header = ({theme}) => {
+import { useContext } from "react";
+import { FunctionalitiesContext } from "../../context/FunctContext";
+
+const Header = () => {
+
+    const { theme } = useContext(FunctionalitiesContext);
 
     return(
         <StyledHeader bgImg={ theme === "light" ? lightBG : darkBG}>

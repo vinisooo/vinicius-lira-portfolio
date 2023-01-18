@@ -4,7 +4,12 @@ import moon from "../../assets/moon.svg";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 
-const Aside = ({changeThemeFunction, theme}) => {
+import { useContext } from "react";
+import { FunctionalitiesContext } from "../../context/FunctContext";
+
+const Aside = () => {
+
+    const { theme, handleTheme } = useContext(FunctionalitiesContext);
 
     return(
         <StyledAside>
