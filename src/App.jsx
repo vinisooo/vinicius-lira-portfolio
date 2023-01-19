@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import Aside from './components/Aside';
 import Header from './components/Header';
-import { StyledTech } from './components/Technologies/styled';
+import Technologies from './components/Technologies';
 
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./Styles/Themes";
@@ -19,7 +19,7 @@ const App = () => {
         <Aside/>
         <Header />
         <AboutMe/>
-        <StyledTech/>
+        <Technologies/>
       </ThemeProvider>
     </div>
   );

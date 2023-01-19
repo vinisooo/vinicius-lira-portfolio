@@ -158,7 +158,7 @@ export const StyledAboutMe = styled.section`
         overflow: hidden;
 
         position: absolute;
-        bottom: -59px;
+        bottom: 0;
 
         img{
             width: 100%;

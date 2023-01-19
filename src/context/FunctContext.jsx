@@ -11,7 +11,7 @@ const FunctionalitiesProvider = ({children}) => {
       setTheme(savedTheme);
       localStorage.setItem("@vinicius-lira: theme-preference", savedTheme);
     }
-    console.log("ola")
+
 
     return(
         <FunctionalitiesContext.Provider value={{theme, handleTheme}}>
