@@ -86,6 +86,7 @@ export const StyledCard = styled.div`
     :hover{
         transform: translateY(3px) translateX(-3px);
         box-shadow: none;
+
     }
 
 `

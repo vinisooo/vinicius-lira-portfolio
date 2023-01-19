@@ -4,7 +4,7 @@ import Header from './components/Header';
 
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./Styles/Themes";
-import AboutMe from './components/AboutMe/inde';
+import AboutMe from './components/AboutMe';
 
 import { useContext } from 'react';
 import { FunctionalitiesContext } from './context/FunctContext';
