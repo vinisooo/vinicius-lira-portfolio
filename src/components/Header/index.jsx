@@ -16,7 +16,7 @@ const Header = () => {
     const { theme } = useContext(FunctionalitiesContext);
 
     return(
-        <StyledHeader bgImg={ theme === "light" ? lightBG : darkBG}>
+        <StyledHeader id="header" bgImg={ theme === "light" ? lightBG : darkBG}>
             <div>
                 <Container>
                     <SectionNumber sectionNum="01" sectionTitle="Início" color="var(--color-brand-1)"/>

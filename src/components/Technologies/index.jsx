@@ -11,7 +11,7 @@ const Technologies = () => {
     const [ techDescription, setTechDescription ] = useState("");
 
     return(
-        <StyledTech>
+        <StyledTech id="technologies">
             <Container>
                 <SectionNumber sectionNum="03" sectionTitle="Tecnologias" color="var(--color-brand-1)" />
                 <div className="technologies">

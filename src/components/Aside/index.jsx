@@ -19,15 +19,15 @@ const Aside = () => {
             
             <div className="links">
                 <div>
-                    <a href="">01</a>
+                    <a href="#header">01</a>
                     <span>Início</span>
                 </div>
                 <div>
-                    <a href="">02</a>
+                    <a href="#about-me">02</a>
                     <span>Sobre mim</span>
                 </div>
                 <div>
-                    <a href="">03</a>
+                    <a href="#technologies">03</a>
                     <span>Tecnologias</span>
                 </div>
                 <div>

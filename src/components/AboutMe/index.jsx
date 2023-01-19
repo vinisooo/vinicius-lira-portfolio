@@ -14,7 +14,7 @@ const AboutMe = () => {
     const { theme } = useContext(FunctionalitiesContext);
 
     return(
-        <StyledAboutMe>
+        <StyledAboutMe id="about-me">
             <Container>
                 <SectionNumber color="var(--color-brand-3);" sectionNum="02" row={true} sectionTitle="sobre mim"></SectionNumber>
             </Container>
