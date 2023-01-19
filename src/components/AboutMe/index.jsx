@@ -18,7 +18,7 @@ const AboutMe = () => {
             <Container>
                 <SectionNumber color="var(--color-brand-3);" sectionNum="02" row={true} sectionTitle="sobre mim"></SectionNumber>
             </Container>
-            <Container>
+            <Container data-aos="fade-up">
                 <div className="dev">
                     <figure>
                         <img src="https://github.com/vinisooo.png" alt="Vinícius Lira" />
