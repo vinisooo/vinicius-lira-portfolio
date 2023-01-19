@@ -95,4 +95,9 @@ export const StyledSectionNum = styled.div`
         }   
     }
 
+    .sticky{
+        position: sticky;
+        top: 0;
+    }
+
 `

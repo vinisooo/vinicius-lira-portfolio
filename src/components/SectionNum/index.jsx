@@ -1,6 +1,6 @@
 import { StyledSectionNum } from "./styled"
 
-const SectionNumber = ({ sectionNum, sectionTitle, color, row }) => {
+const SectionNumber = ({ sectionNum, sectionTitle, color, row, sticky }) => {
 
     return(
         <StyledSectionNum color={color}>

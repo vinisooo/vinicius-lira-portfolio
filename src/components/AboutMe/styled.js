@@ -163,8 +163,8 @@ export const StyledAboutMe = styled.section`
         img{
             width: 100%;
             object-fit: cover;
+
         }
     }
-
 
 `
