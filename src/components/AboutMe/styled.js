@@ -133,7 +133,7 @@ export const StyledAboutMe = styled.section`
             width: 50%;
         }
     }
-
+    
     @keyframes spinningPic {
         from{
             transform: rotate(0deg);
@@ -149,5 +149,22 @@ export const StyledAboutMe = styled.section`
             transform: rotate(0deg);
         }
     }
+
+    footer{
+        width: 100%;
+        height: 60px;
+        background-color: red;
+
+        overflow: hidden;
+
+        position: absolute;
+        bottom: -59px;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
 
 `

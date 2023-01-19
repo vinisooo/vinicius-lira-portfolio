@@ -3,7 +3,15 @@ import { Container } from "../../Styles/Container";
 import Card from "../Card";
 import SectionNumber from "../SectionNum";
 
+import lightBG from "../../assets/topoLight.png";
+import darkBG from "../../assets/topoDark.jpg";
+
+import { useContext } from "react";
+import { FunctionalitiesContext } from "../../context/FunctContext";
+
 const AboutMe = () => {
+
+    const { theme } = useContext(FunctionalitiesContext);
 
     return(
         <StyledAboutMe>
@@ -35,6 +43,9 @@ const AboutMe = () => {
                     </p>
                 </div>
             </Container>
+            <footer>
+                <img src={theme === "light" ? lightBG : darkBG} />
+            </footer>
         </StyledAboutMe>
     )
 }
