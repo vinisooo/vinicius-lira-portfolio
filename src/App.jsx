@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Aside from './components/Aside';
 import Header from './components/Header';
+import { StyledTech } from './components/Technologies/styled';
 
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./Styles/Themes";
@@ -10,7 +11,6 @@ import { useContext } from 'react';
 import { FunctionalitiesContext } from './context/FunctContext';
 
 const App = () => {
-
   const {theme, handleTheme } = useContext(FunctionalitiesContext);
 
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Aside/>
         <Header />
         <AboutMe/>
+        <StyledTech/>
       </ThemeProvider>
     </div>
   );
