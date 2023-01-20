@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Aside from './components/Aside';
 import Header from './components/Header';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -17,16 +18,20 @@ const App = () => {
   const {theme, handleTheme } = useContext(FunctionalitiesContext);
 
   useEffect(()=>{
-    AOS.init({ duration: 1200 })
+    AOS.init({
+      duration: 1200,
+      once: true
+    })
   }, [])
 
   return (
     <div className="App">
       <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
         <Aside/>
-        <Header />
+        <Header/>
         <AboutMe/>
         <Technologies/>
+        <Projects/>
       </ThemeProvider>
     </div>
   );

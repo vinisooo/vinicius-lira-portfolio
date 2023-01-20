@@ -91,13 +91,16 @@ export const StyledSectionNum = styled.div`
             p{
                 transform: rotate(0deg) translateX(0);
             }
-
-        }   
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+        }
     }
 
     .sticky{
         position: sticky;
-        top: 0;
+        top: 50px;
     }
 
 `
