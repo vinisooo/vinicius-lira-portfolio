@@ -40,10 +40,9 @@ export const StyledTech = styled.section`
 
         >p{
             margin-top: 60px;
-
-            display: none;
-
             height: 40px;
+
+            transform: translateY(-20px);
 
             transition: 0.3s ease;
 
@@ -59,6 +58,7 @@ export const StyledTech = styled.section`
         width: 100%;
 
         display: flex;
+        justify-content: space-between;
 
         gap: 10px;
 
@@ -70,7 +70,7 @@ export const StyledTech = styled.section`
             gap: 10px;
 
 
-            width: 100%;
+            width: 30%;
             height: 100px;
 
         }
@@ -132,16 +132,12 @@ export const StyledTech = styled.section`
         }
 
         ul li{
-            width: 49%;
-
-            h4{
-                display: flex;
-            }
+            width: 30%;
         }
 
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: 750px) {
         .technologies{
             width: 80%;
         }
@@ -161,6 +157,7 @@ export const StyledTech = styled.section`
 
         ul li h4{
             font-size: 22px;
+            display: inline;
         }
     }
 
