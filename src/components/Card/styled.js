@@ -4,7 +4,9 @@ export const StyledCard = styled.div`
 
     width: 400px;
     max-width: 95vw;
+    min-height: 150px;
     height: 150px;
+    max-height: 200px;
     overflow: hidden;
 
     border-radius: 16px;
@@ -22,7 +24,7 @@ export const StyledCard = styled.div`
     align-items: center;
 
     > div{
-        height: 100%;
+        min-height: 100%;
         width: 100%;
         padding: 20px;
 
@@ -37,12 +39,17 @@ export const StyledCard = styled.div`
             font-family: 'Chivo Mono', monospace;
             font-size: 20px;
             font-weight: 500;
+
+            cursor: default;
         }
         p{
-            font-size: 12px;
+            font-size: 11px;
             line-height: 150%;
 
             font-weight: 300;
+            margin: 10px 0;
+
+            cursor: default;
         }
 
         >div{

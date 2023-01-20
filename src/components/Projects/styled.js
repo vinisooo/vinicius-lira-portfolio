@@ -82,6 +82,9 @@ export const StyledProjects = styled.section`
             position: absolute;
             bottom: -80px;
 
+            width: 100%;
+            max-width: 400px;
+
             *{
                 color: ${ props => props.theme.colorText1 };
             }

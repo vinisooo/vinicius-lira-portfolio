@@ -116,6 +116,8 @@ export const StyledTech = styled.section`
            font-weight: 400;
            line-height: 130%;
 
+           display: none;
+
            color: var(--color-grey-2);
 
            transition: 0.3s ease;
@@ -131,6 +133,10 @@ export const StyledTech = styled.section`
 
         ul li{
             width: 49%;
+
+            h4{
+                display: flex;
+            }
         }
 
     }
