@@ -3,6 +3,7 @@ import Aside from './components/Aside';
 import Header from './components/Header';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -32,6 +33,7 @@ const App = () => {
         <AboutMe/>
         <Technologies/>
         <Projects/>
+        <Footer/>
       </ThemeProvider>
     </div>
   );
