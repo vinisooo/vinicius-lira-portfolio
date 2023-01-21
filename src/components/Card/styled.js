@@ -62,6 +62,14 @@ export const StyledCard = styled.div`
         div a{
             font-size: 12px;
             font-weight: 300;
+
+            transition: 0.3s ease;
+            
+        }
+
+        div a:hover{
+            text-decoration: none;
+            filter: brightness(0.6);
         }
 
         div span{

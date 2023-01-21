@@ -87,6 +87,7 @@ export const StyledProjects = styled.section`
 
             *{
                 color: ${ props => props.theme.colorText1 };
+                filter: contrast(5);
             }
         }
     }

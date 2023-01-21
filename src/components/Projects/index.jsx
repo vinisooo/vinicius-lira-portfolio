@@ -28,8 +28,8 @@ const Projects = () => {
                                             <img src={pr.gif || "https://thumbs.dreamstime.com/b/error-page-not-found-ghost-cartoon-cute-111529535.jpg"} alt={pr.name} />
                                         </figure>
                                         <Card title={pr.name} description={pr.description}>
-                                            <a href={pr.repo}>Ver repositório</a>
-                                            <a href={pr.access}>Acessar projeto</a>
+                                            <a target="_blank" href={pr.repo}>Ver repositório</a>
+                                            <a target="_blank" href={pr.access}>Acessar projeto</a>
                                         </Card>
                                     </li>
                                 )
