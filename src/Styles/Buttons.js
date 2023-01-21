@@ -13,6 +13,8 @@ export const BtnDefault = styled.button`
     transition: 0.3s ease;
 
     position: relative;
+    background-color: transparent;
+
 
     img{
         width: 12px;
@@ -21,8 +23,6 @@ export const BtnDefault = styled.button`
 
         transition: 0.3s ease;
     }
-    overflow: hidden;
-
     
     ::after{
         position: absolute;
@@ -39,6 +39,8 @@ export const BtnDefault = styled.button`
 
         transition: 0.3s ease;
     }
+
+    z-index: 3;
 
     :hover{
         color: var(--color-white);

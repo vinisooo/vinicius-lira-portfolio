@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import ContactMe from './components/ContactMe';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,6 +34,7 @@ const App = () => {
         <AboutMe/>
         <Technologies/>
         <Projects/>
+        <ContactMe/>
         <Footer/>
       </ThemeProvider>
     </div>
