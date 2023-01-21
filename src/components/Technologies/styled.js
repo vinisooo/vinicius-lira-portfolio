@@ -48,7 +48,7 @@ export const StyledTech = styled.section`
 
             color: ${ props => props.theme.colorText2 };
             line-height: 150%;
-            font-size: 16px;
+            font-size: 13px;
 
             animation: displayDescription 1s ease;
         }
