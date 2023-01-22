@@ -61,6 +61,7 @@ export const StyledMobMenu = styled.div`
 
         display: flex;
         justify-content: flex-end;
+        transition: 0.4s ease;
 
         nav{
             height: 100%;
@@ -74,6 +75,8 @@ export const StyledMobMenu = styled.div`
             justify-content: space-between;
 
             background-color: ${props => props.theme.colorBG1};
+
+            animation: displayMenu 0.5s ease;
         }
 
         nav button{
@@ -139,9 +142,25 @@ export const StyledMobMenu = styled.div`
 
     }
 
+
     @media (min-width: 700px) {
         display: none;
     }
 
+    @keyframes displayMenu {
+        from{
+            transform: translateX(100vw);
+        }to{
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes hideMenu {
+        from{
+            transform: translateX(0);
+        }to{
+            transform: translateX(100vw);
+        }
+    }
 
 `

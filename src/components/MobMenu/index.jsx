@@ -7,20 +7,34 @@ import linkedin from "../../assets/linkedin.svg";
 
 import { useContext } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
+import { useEffect } from "react";
 
 const MobMenu = () => {
 
     const { theme, handleTheme, mobileMenu, setMobileMenu } = useContext(FunctionalitiesContext);
 
+    const handleMenu = () => {
+        setMobileMenu(!mobileMenu)
+    }
+
+    useEffect(() =>{
+        const clickOutToClose = (e) => {
+            if(e.target.className === "menu-bg"){
+                setMobileMenu(!mobileMenu)
+            }
+        }
+        document.addEventListener("click", clickOutToClose)
+    })
+
     return(
         <StyledMobMenu>
-            <button onClick={() => setMobileMenu(!mobileMenu)} className={mobileMenu && "open-menu"}>
+            <button onClick={handleMenu} className={mobileMenu ? "open-menu" : ""}>
                 <span className="bar-1"></span>
                 <span className="bar-2"></span>
             </button>
             {
                 mobileMenu &&
-                <div>
+                <div className="menu-bg">
                     <nav>
                         <button onClick={handleTheme}>
                             Mudar tema
@@ -28,31 +42,31 @@ const MobMenu = () => {
                         </button>
                         <ul>
                             <li>
-                                <a href="#header">
+                                <a onClick={handleMenu} href="#header">
                                     <span>Início</span>
                                     - 01
                                 </a>
                             </li>
                             <li>
-                                <a href="#about-me">
+                                <a onClick={handleMenu} href="#about-me">
                                     <span>Sobre Mim</span>
                                     - 02
                                 </a>
                             </li>
                             <li>
-                                <a href="#technologies">
+                                <a onClick={handleMenu} href="#technologies">
                                     <span>Tecnologias</span>
                                     - 03
                                 </a>
                             </li>
                             <li>
-                                <a href="#projects">
+                                <a onClick={handleMenu} href="#projects">
                                     <span>Projetos</span>
                                     - 04
                                 </a>
                             </li>
                             <li>
-                                <a href="#contact">
+                                <a onClick={handleMenu} href="#contact">
                                     <span>Contato</span>
                                     - 05
                                 </a>
