@@ -28,8 +28,8 @@ const Header = () => {
                         </div>
 
                         <p>Desenvolvedor Front-end</p>
-                        <LinkDefault href="">
-                            Baixar Curriculum
+                        <LinkDefault href="https://drive.google.com/file/d/1XZ-HsKv159L_zSAen3YjD2B1mGZ3Xucw/view?usp=sharing">
+                            Ver Curriculum
                             <img src={downloadIcon} />
                         </LinkDefault>
 
