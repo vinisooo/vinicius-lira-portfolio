@@ -86,6 +86,16 @@ export const StyledMobMenu = styled.div`
             border: none;
             color: ${props => props.theme.colorText2};
             padding-right: 30px;
+
+            img{
+                transition: 0.7s ease;
+            }
+        }
+
+        nav button:hover{
+            img{
+                transform: rotate(360deg);
+            }
         }
 
         nav ul{
@@ -106,7 +116,7 @@ export const StyledMobMenu = styled.div`
             font-weight: 700;
             padding: 20px;
 
-            color: ${props => props.theme.colorText1};
+            color: ${props => props.theme.colorText2};
         }
 
         nav span{

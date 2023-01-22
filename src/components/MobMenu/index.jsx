@@ -5,7 +5,13 @@ import moon from "../../assets/moon.svg";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 
+import { useContext } from "react";
+import { FunctionalitiesContext } from "../../context/FunctContext";
+
 const MobMenu = () => {
+
+    const { theme, handleTheme } = useContext(FunctionalitiesContext);
+
     return(
         <StyledMobMenu>
             <button className="open-menu">
@@ -14,9 +20,9 @@ const MobMenu = () => {
             </button>
             <div>
                 <nav>
-                    <button>
+                    <button onClick={handleTheme}>
                         Mudar tema
-                        <img src={sun} />
+                        <img src={theme === "light" ? sun : moon} />
                     </button>
                     <ul>
                         <li>
@@ -28,25 +34,25 @@ const MobMenu = () => {
                         <li>
                             <a href="#about-me">
                                 <span>Sobre Mim</span>
-                                - 01
+                                - 02
                             </a>
                         </li>
                         <li>
                             <a href="#technologies">
                                 <span>Tecnologias</span>
-                                - 01
+                                - 03
                             </a>
                         </li>
                         <li>
                             <a href="#projects">
                                 <span>Projetos</span>
-                                - 01
+                                - 04
                             </a>
                         </li>
                         <li>
                             <a href="#contact">
                                 <span>Contato</span>
-                                - 01
+                                - 05
                             </a>
                         </li>
                     </ul>
