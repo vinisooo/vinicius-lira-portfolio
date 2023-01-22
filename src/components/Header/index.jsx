@@ -18,7 +18,7 @@ const Header = () => {
     return(
         <StyledHeader id="header" bgImg={ theme === "light" ? lightBG : darkBG}>
             <div>
-                <Container>
+                <Container data-aos="fade-up">
                     <SectionNumber sectionNum="01" sectionTitle="Início" color="var(--color-brand-1)"/>
 
                     <div className="greetings">
