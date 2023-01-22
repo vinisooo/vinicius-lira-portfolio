@@ -40,7 +40,7 @@ export const BtnDefault = styled.button`
         transition: 0.3s ease;
     }
 
-    z-index: 3;
+    z-index: 1;
 
     :hover{
         color: var(--color-white);

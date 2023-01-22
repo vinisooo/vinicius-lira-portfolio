@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const StyledTech = styled.section`
 
-    min-height: 95vh;
+    min-height: 80vh;
     width: 100%;
 
-    padding: 40px 0;
+    padding: 30px 0;
 
     position: relative;
 
@@ -72,6 +72,7 @@ export const StyledTech = styled.section`
 
             width: 30%;
             height: 100px;
+            opacity: 0.8;
 
         }
 

@@ -4,8 +4,6 @@ export const StyledSectionNum = styled.div`
 
     max-width: 350px;
 
-    margin-bottom: 50px;
-
     position: absolute;
     top: 15px;
     left: 15px;
