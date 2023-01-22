@@ -20,11 +20,11 @@ const ContactMe = () => {
                         <li>cviniciusliramdev@gmail.com</li>
                     </ul>
                 </div>
-                <form>
-                    <input placeholder="Nome" type="text" />
-                    <input placeholder="email" type="email" />
-                    <textarea placeholder="Digite sua mensagem"/>
-                    <BtnDefault>Enviar</BtnDefault>
+                <form action="https://formsubmit.co/cviniciusliramdev@gmail.com" method="POST">
+                    <input placeholder="Nome" name="name" />
+                    <input placeholder="Email" name="email" />
+                    <textarea name="message" placeholder="Digite sua mensagem"/>
+                    <BtnDefault type="submit">Enviar</BtnDefault>
                 </form>
             </Container>
         </StyledContactMe>
