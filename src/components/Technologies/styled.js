@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledTech = styled.section`
 
-    min-height: 80vh;
+    min-height: 85vh;
     width: 100%;
 
     padding: 30px 0;

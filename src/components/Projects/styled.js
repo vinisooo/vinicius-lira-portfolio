@@ -7,7 +7,7 @@ export const StyledProjects = styled.section`
 
     position: relative;
 
-    padding: 30px 0;
+    padding: 100px 0;
 
     background-color: ${props => props.theme.colorBG1};
 
