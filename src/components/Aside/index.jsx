@@ -17,25 +17,25 @@ const Aside = () => {
                 <img src={theme === "light" ? sun : moon}/>
             </button>
             
-            <div className="links">
-                <div>
+            <ul className="links">
+                <li>
                     <a href="#header">01</a>
                     <span>Início</span>
-                </div>
-                <div>
+                </li>
+                <li>
                     <a href="#about-me">02</a>
                     <span>Sobre mim</span>
-                </div>
-                <div>
+                </li>
+                <li>
                     <a href="#technologies">03</a>
                     <span>Tecnologias</span>
-                </div>
-                <div>
+                </li>
+                <li>
                     <a href="">04</a>
                     <span>Contato</span>
-                </div>
-            </div>
-            <div className="social-medias">
+                </li>
+            </ul>
+            <footer className="social-medias">
                 <a href="https://github.com/vinisooo" target="_blank">
                     <img src={github} alt="" />
                 </a>
@@ -44,7 +44,7 @@ const Aside = () => {
                     <img src={linkedin} alt="" />
                 </a>
 
-            </div>
+            </footer>
         </StyledAside>
     )
 }

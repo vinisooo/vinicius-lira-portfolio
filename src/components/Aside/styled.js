@@ -21,7 +21,7 @@ export const StyledAside = styled.aside`
         justify-content: center;
     }
 
-    >div{
+    ul{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -89,7 +89,7 @@ export const StyledAside = styled.aside`
         background-color: var(--color-brand-1);
     }
 
-    .links div{
+    .links li{
         position: relative;
 
         span{
@@ -117,7 +117,7 @@ export const StyledAside = styled.aside`
         }
     }
     
-    .links div:hover{
+    .links li:hover{
 
         span{
             display: flex;
@@ -132,8 +132,11 @@ export const StyledAside = styled.aside`
         }
     }
 
-    .social-medias{
+    footer{
 
+        display: flex;
+        flex-direction: column;
+        
         position: absolute;
         bottom: 0;
 
