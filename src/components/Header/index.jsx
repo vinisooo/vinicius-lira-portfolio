@@ -27,7 +27,7 @@ const Header = () => {
                             <h1>Vinícius Lira</h1>
                         </div>
 
-                        <p>Desenvolvedor Frontend</p>
+                        <p>Desenvolvedor Front-end</p>
                         <LinkDefault href="">
                             Baixar Curriculum
                             <img src={downloadIcon} />
