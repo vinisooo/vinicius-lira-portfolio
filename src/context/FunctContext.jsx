@@ -5,6 +5,7 @@ export const FunctionalitiesContext = createContext({});
 const FunctionalitiesProvider = ({children}) => {
 
     const [ theme, setTheme ] = useState(localStorage.getItem("@vinicius-lira: theme-preference") || "light");
+    const [ mobileMenu, setMobileMenu ] = useState(false);
 
     const handleTheme = () =>{
       const savedTheme = theme === "light" ? "dark" : "light";
@@ -14,7 +15,7 @@ const FunctionalitiesProvider = ({children}) => {
 
 
     return(
-        <FunctionalitiesContext.Provider value={{theme, handleTheme}}>
+        <FunctionalitiesContext.Provider value={{theme, handleTheme, mobileMenu, setMobileMenu}}>
             {children}
         </FunctionalitiesContext.Provider>
     )
