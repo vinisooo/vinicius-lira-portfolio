@@ -17,7 +17,7 @@ const Aside = () => {
                 <img src={theme === "light" ? sun : moon}/>
             </button>
             
-            <ul className="links">
+            <ul>
                 <li>
                     <a href="#header">01</a>
                     <span>Início</span>
@@ -35,7 +35,7 @@ const Aside = () => {
                     <span>Contato</span>
                 </li>
             </ul>
-            <footer className="social-medias">
+            <footer>
                 <a href="https://github.com/vinisooo" target="_blank">
                     <img src={github} alt="" />
                 </a>

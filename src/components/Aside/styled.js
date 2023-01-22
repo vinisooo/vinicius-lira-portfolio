@@ -89,7 +89,7 @@ export const StyledAside = styled.aside`
         background-color: var(--color-brand-1);
     }
 
-    .links li{
+    ul li{
         position: relative;
 
         span{
@@ -117,7 +117,7 @@ export const StyledAside = styled.aside`
         }
     }
     
-    .links li:hover{
+    ul li:hover{
 
         span{
             display: flex;
@@ -136,7 +136,7 @@ export const StyledAside = styled.aside`
 
         display: flex;
         flex-direction: column;
-        
+
         position: absolute;
         bottom: 0;
 
