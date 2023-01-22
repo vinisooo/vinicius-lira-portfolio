@@ -6,13 +6,14 @@ import SectionNumber from "../SectionNum";
 import lightBG from "../../assets/topoLight.png";
 import darkBG from "../../assets/topoDark.jpg";
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
 
 const AboutMe = () => {
 
     const { theme } = useContext(FunctionalitiesContext);
-
+    const [ coWork, setCoWork ] = useState(false);
+    
     return(
         <StyledAboutMe id="about-me">
             <Container>
@@ -31,15 +32,18 @@ const AboutMe = () => {
 
                 <div className="about-me-text">
                     <h2>Sobre mim</h2>
-                    <p>Sou um desenvolvedor front-end apaixonado desde os meus 10 anos de idade por design e tecnologia. Desde
+                    <p>Sou um desenvolvedor front-end apaixonado desde os meus 11 anos de idade por design e tecnologia. Desde
                         que decidi focar os estudos em desenvolvimento web, tenho trabalhado incansavelmente para aperfeiçoar minhas habilidades
-                        e me manter atualizado com as últimas tendências e ferramentas. Hoje, tenho experiência em criar websites e aplicativos
-                        web responsivos e funcionais, com habilidades em HTML, CSS, JavaScript, Typescript e React, além de diversas ferramentas
-                        que auxiliam no desenvolvimento de aplicações. Além disso, sou familiarizado com ferramentas de design, o que me permite criar layouts
-                        e interfaces visuais atraentes.
+                        . Hoje, tenho experiência em criar websites e aplicações web responsivas e funcionais, com habilidades em HTML, CSS, JavaScript,
+                        Typescript e React, além de diversas ferramentas
+                        que auxiliam no desenvolvimento dos projetos. Além disso, sou familiarizado com ferramentas de design, o que me permite criar layouts
+                        e interfaces visuais atraentes. 
                     </p>
                     <p>
-                        Estou sempre em busca de novos desafios e oportunidades para trabalhar em projetos em equipe e colaborar com outros profissionais da área. Vamos trabalhar juntos?
+                        Estou sempre em busca de novos desafios e oportunidades para trabalhar em projetos em equipe e colaborar com outros profissionais da área. 
+                        <a href="#contact" onMouseEnter={() => setCoWork(true)} onMouseLeave={() => setCoWork(false)}>
+                            Vamos trabalhar juntos {coWork ? "!" : "?"}
+                        </a>
                     </p>
                 </div>
             </Container>

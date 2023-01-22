@@ -107,6 +107,15 @@ export const StyledAboutMe = styled.section`
 
             margin-bottom: 10px;
         }
+        p a{
+            text-decoration: none;
+            color: var(--color-brand-3);
+            margin-left: 10px;
+        }
+
+        p a:hoveR{
+            text-decoration: underline;
+        }
     }
 
     @media (min-width: 1100px) {
