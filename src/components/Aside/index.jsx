@@ -31,7 +31,11 @@ const Aside = () => {
                     <span>Tecnologias</span>
                 </li>
                 <li>
-                    <a href="">04</a>
+                    <a href="#projects">04</a>
+                    <span>Projetos</span>
+                </li>
+                <li>
+                    <a href="#contact">05</a>
                     <span>Contato</span>
                 </li>
             </ul>

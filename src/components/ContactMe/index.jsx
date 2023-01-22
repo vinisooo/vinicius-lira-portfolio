@@ -6,9 +6,8 @@ import SectionNumber from "../SectionNum";
 
 
 const ContactMe = () => {
-
     return(
-        <StyledContactMe>
+        <StyledContactMe id="contact">
             <Container>
                 <SectionNumber sectionTitle="Contatos" sectionNum="05" row={true} />
             </Container>
