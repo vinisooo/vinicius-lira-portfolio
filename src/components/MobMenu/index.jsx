@@ -26,26 +26,26 @@ const MobMenu = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#header">
-                                <span>Início</span>
+                            <a href="#about-me">
+                                <span>Sobre Mim</span>
                                 - 01
                             </a>
                         </li>
                         <li>
-                            <a href="#header">
-                                <span>Início</span>
+                            <a href="#technologies">
+                                <span>Tecnologias</span>
                                 - 01
                             </a>
                         </li>
                         <li>
-                            <a href="#header">
-                                <span>Início</span>
+                            <a href="#projects">
+                                <span>Projetos</span>
                                 - 01
                             </a>
                         </li>
                         <li>
-                            <a href="#header">
-                                <span>Início</span>
+                            <a href="#contact">
+                                <span>Contato</span>
                                 - 01
                             </a>
                         </li>

@@ -95,6 +95,8 @@ export const StyledMobMenu = styled.div`
             gap: 50px;
             padding-right: 10px;
             padding-bottom: 60px;
+
+            text-align: end;
         }
 
         nav a{

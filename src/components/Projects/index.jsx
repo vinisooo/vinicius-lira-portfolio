@@ -15,7 +15,7 @@ const Projects = () => {
     }
 
     return(
-        <StyledProjects>
+        <StyledProjects id="projects">
             <Container data-aos="fade-up">
                 <div className="projects-list">
                     <h2>Projetos favoritos</h2>
