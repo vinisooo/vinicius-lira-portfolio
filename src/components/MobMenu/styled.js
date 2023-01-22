@@ -10,8 +10,8 @@ export const StyledMobMenu = styled.div`
         top: 40px;
         right: 20px;
 
-        width: 55px;
-        height: 30px;
+        width:60px;
+        height: 25px;
 
         display: flex;
         flex-direction: column;
@@ -27,7 +27,7 @@ export const StyledMobMenu = styled.div`
 
         span{
             width: 100%;
-            height: 20%;
+            height: 18%;
             background-color: var(--color-grey-1);
 
             
@@ -35,14 +35,15 @@ export const StyledMobMenu = styled.div`
         }
     }
 
-    .open-menu:hover{
+    .open-menu{
+        transform: translateX(10px);
         .bar-1{
-            transform: rotate(45deg) translateY(16px);
+            transform: rotate(45deg) translateY(14px);
             
         }
 
         .bar-2{
-            transform: rotate(-45deg) translateY(-16px);
+            transform: rotate(-45deg) translateY(-14px);
         }
     }
 
