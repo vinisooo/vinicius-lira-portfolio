@@ -56,17 +56,32 @@ export const StyledHeader = styled.header `
     }
 
 
-    h1{
-        color: ${props => props.theme.colorText1};
+    .greetings >div{
         font-family: 'Chivo Mono', monospace;
-        font-size: 36px;
-        font-weight: 600;
-        
-        max-width: 300px;
+        color: ${props => props.theme.colorText1};
+
         padding-bottom:30px;
+
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+            
+            width: 100%;
+            max-width: 310px;
+            padding-right: 10px;
+
+            white-space: nowrap;
+            overflow: hidden;
+
+            animation: typing 2s, cursor .4s step-end infinite alternate;
+
+            border-right: 5px solid ${props => props.theme.colorText1};
+        }
 
         span{
             font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
         }
     }
 
@@ -82,9 +97,23 @@ export const StyledHeader = styled.header `
             }
         }
     }
+
     @media (min-width: 900px) {
         >div{
             width: 80vw;
         }
     }
+
+    @keyframes cursor {
+        50%{
+            border-color: transparent;
+        }
+    }
+
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+    }
+
 `

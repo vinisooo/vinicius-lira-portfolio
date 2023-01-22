@@ -22,10 +22,11 @@ const Header = () => {
                     <SectionNumber sectionNum="01" sectionTitle="Início" color="var(--color-brand-1)"/>
 
                     <div className="greetings">
-                        <h1>
-                            <span>Olá! meu nome é </span>
-                            Vinícius Lira
-                        </h1>
+                        <div>
+                            <span>Olá!👋 meu nome é </span>
+                            <h1>Vinícius Lira</h1>
+                        </div>
+
                         <p>Desenvolvedor Frontend</p>
                         <LinkDefault href="">
                             Baixar Curriculum
