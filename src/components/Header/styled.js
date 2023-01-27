@@ -78,6 +78,12 @@ export const StyledHeader = styled.header `
             border-right: 5px solid ${props => props.theme.colorText1};
         }
 
+        @media (max-width: 330px) {
+            h1{
+                font-size: 26px;
+            }
+        }
+
         span{
             font-size: 16px;
             font-weight: 600;

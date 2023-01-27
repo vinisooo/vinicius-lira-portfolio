@@ -90,6 +90,7 @@ export const StyledMobMenu = styled.div`
             border: none;
             color: ${props => props.theme.colorText2};
             padding-right: 30px;
+            padding-bottom: 30px;
 
             img{
                 transition: 0.7s ease;

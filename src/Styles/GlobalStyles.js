@@ -31,7 +31,8 @@ export const GlobalStyles = createGlobalStyle`
         line-height: 1;
         font-family: 'Montserrat', sans-serif;
     }
-    
+
+
     ol, ul {
         list-style: none;
     }
