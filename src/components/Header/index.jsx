@@ -28,7 +28,7 @@ const Header = () => {
                         </div>
 
                         <p>Desenvolvedor Front-end</p>
-                        <LinkDefault href="https://drive.google.com/file/d/1x1EBWuns5XjEU6EsM8Ht6O5AjMwF6r_L/view?usp=sharing">
+                        <LinkDefault target="_blank" href="https://drive.google.com/file/d/1x1EBWuns5XjEU6EsM8Ht6O5AjMwF6r_L/view?usp=sharing">
                             Baixar Curriculum
                             <img src={downloadIcon} />
                         </LinkDefault>
