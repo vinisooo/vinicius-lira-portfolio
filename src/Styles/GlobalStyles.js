@@ -76,4 +76,19 @@ export const GlobalStyles = createGlobalStyle`
         --color-brand-2: #284B63;
         --color-brand-3: #70AE6E;
     }
+    ::-webkit-scrollbar
+    {
+      width: 12px;  /* for vertical scrollbars */
+      height: 12px; /* for horizontal scrollbars */
+    }
+    
+    ::-webkit-scrollbar-track
+    {
+      background: var(--color-grey-3)
+    }
+    
+    ::-webkit-scrollbar-thumb
+    {
+      background: var(--color-brand-1)
+    }
 `
