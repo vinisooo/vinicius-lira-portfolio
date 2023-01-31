@@ -76,6 +76,24 @@ export const StyledAside = styled.aside`
         padding: 10px;
     }
 
+    @media (max-height: 600px) {
+        ul{
+            gap: 30px;
+        }
+        a{
+            font-size: 13px;
+        }
+    }
+
+    @media (max-height: 480px) {
+        ul{
+            gap: 20px;
+        }
+        a{
+            font-size: 10px;
+        }
+    }
+
     a::after{
         content: "";
         height: 4px;

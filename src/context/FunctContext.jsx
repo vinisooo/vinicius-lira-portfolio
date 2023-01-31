@@ -21,4 +21,4 @@ const FunctionalitiesProvider = ({children}) => {
     )
 }
 
-export default FunctionalitiesProvider
+export default FunctionalitiesProvider;
