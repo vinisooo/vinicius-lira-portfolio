@@ -10,6 +10,8 @@ export const StyledSectionNum = styled.div`
 
     transition: 0.3s ease;
 
+    cursor: default;
+
     :hover{
         filter: brightness(1.1);
     }
