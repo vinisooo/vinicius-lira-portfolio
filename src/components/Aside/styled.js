@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledAside = styled.aside`
+export const StyledNav = styled.nav`
 
     display: none;
 

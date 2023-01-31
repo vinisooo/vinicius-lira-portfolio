@@ -1,4 +1,4 @@
-import { StyledAside } from "./styled";
+import { StyledNav } from "./styled";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import github from "../../assets/github.svg";
@@ -12,7 +12,7 @@ const Aside = () => {
     const { theme, handleTheme } = useContext(FunctionalitiesContext);
 
     return(
-        <StyledAside>
+        <StyledNav>
             <button onClick={handleTheme}>
                 <img src={theme === "light" ? sun : moon}/>
             </button>
@@ -49,7 +49,7 @@ const Aside = () => {
                 </a>
 
             </footer>
-        </StyledAside>
+        </StyledNav>
     )
 }
 
