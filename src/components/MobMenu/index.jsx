@@ -9,6 +9,8 @@ import { useContext } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
 import { useEffect } from "react";
 
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+
 const MobMenu = () => {
 
     const { theme, handleTheme, mobileMenu, setMobileMenu } = useContext(FunctionalitiesContext);
@@ -16,6 +18,8 @@ const MobMenu = () => {
     const handleMenu = () => {
         setMobileMenu(!mobileMenu)
     }
+
+    mobileMenu ? disableBodyScroll(document) : enableBodyScroll(document);
 
     useEffect(() =>{
         const clickOutToClose = (e) => {

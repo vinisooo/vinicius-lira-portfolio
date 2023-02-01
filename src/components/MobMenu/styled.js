@@ -29,7 +29,6 @@ export const StyledMobMenu = styled.div`
             width: 100%;
             height: 18%;
             background-color: var(--color-grey-1);
-
             
             transition: 0.4s ease;
         }
@@ -54,8 +53,7 @@ export const StyledMobMenu = styled.div`
         position: fixed;
         top: 0;
 
-        background-color: rgba(0,0,0,0.5);
-        backdrop-filter: blur(4px);
+        background-color: rgba(0,0,0,0.6);
 
         z-index: 2;
 
