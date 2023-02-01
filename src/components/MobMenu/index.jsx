@@ -41,31 +41,31 @@ const MobMenu = () => {
                             <img src={theme === "light" ? sun : moon} />
                         </button>
                         <ul>
-                            <li>
+                            <li data-aos="fade-up">
                                 <a onClick={handleMenu} href="#header">
                                     <span>Início</span>
                                     - 01
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="75">
                                 <a onClick={handleMenu} href="#about-me">
                                     <span>Sobre Mim</span>
                                     - 02
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="150">
                                 <a onClick={handleMenu} href="#technologies">
                                     <span>Tecnologias</span>
                                     - 03
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="225">
                                 <a onClick={handleMenu} href="#projects">
                                     <span>Projetos</span>
                                     - 04
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="300">
                                 <a onClick={handleMenu} href="#contact">
                                     <span>Contato</span>
                                     - 05

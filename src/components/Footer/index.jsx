@@ -5,7 +5,7 @@ const Footer = () => {
 
     return(
         <StyledFooter>
-            <Container>
+            <Container data-aos="flip-left">
                 <h3>Até mais!👋</h3>
                 <p>{"Muito obrigado pela atenção ;)"}</p>
             </Container>

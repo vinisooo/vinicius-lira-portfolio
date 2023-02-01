@@ -20,7 +20,7 @@ export const techData = [
         description: "TypeScript é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
     },
     {
-        img: "https://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png",
+        img: "https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png",
         name: "REACT",
         description: "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web"
     },

@@ -21,9 +21,9 @@ const ContactMe = () => {
                     </ul>
                 </div>
                 <form action="https://formsubmit.co/cviniciusliramdev@gmail.com" method="POST">
-                    <input placeholder="Nome" name="name"  data-aos="fade-left" data-aos-delay="50"/>
-                    <input placeholder="Email" name="email" data-aos="fade-left" data-aos-delay="150"/>
-                    <textarea name="message" placeholder="Digite sua mensagem" data-aos="fade-left" data-aos-delay="250"/>
+                    <input placeholder="Nome" name="name"  data-aos="fade-up" data-aos-delay="50"/>
+                    <input placeholder="Email" name="email" data-aos="fade-up" data-aos-delay="150"/>
+                    <textarea name="message" placeholder="Digite sua mensagem" data-aos="fade-up" data-aos-delay="250"/>
                     <BtnDefault type="submit">Enviar</BtnDefault>
                 </form>
             </Container>

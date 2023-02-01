@@ -9,7 +9,6 @@ import { useState } from "react";
 const Technologies = () => {
 
     const [ techDescription, setTechDescription ] = useState("");
-    const [animationDelay, setAnimationDelay] = useState(50);
 
     return(
         <StyledTech id="technologies">
@@ -21,7 +20,7 @@ const Technologies = () => {
                         {
                             techData.map((tech, index) => {
                                 return (
-                                    <li onMouseLeave={()=> setTechDescription("")} onMouseEnter={()=>setTechDescription(tech.description)} key={index}>
+                                    <li data-aos="fade-right" data-aos-delay={`${index * 75}`} onMouseLeave={()=> setTechDescription("")} onMouseEnter={()=>setTechDescription(tech.description)} key={index}>
                                         <figure>
                                             <img src={tech.img} alt={tech.name} />
                                         </figure>
