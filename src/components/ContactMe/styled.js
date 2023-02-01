@@ -19,7 +19,6 @@ export const StyledContactMe = styled.section`
     }
 
     .cta{
-
         display: flex;
         flex-direction: column;
 
@@ -54,7 +53,7 @@ export const StyledContactMe = styled.section`
 
             gap: 10px;
 
-            font-size: 10px;
+            font-size: 12px;
 
             color: ${props => props.theme.colorText1};
         }

@@ -11,7 +11,7 @@ const ContactMe = () => {
             <Container>
                 <SectionNumber sectionTitle="Contatos" sectionNum="05" row={true} />
             </Container>
-            <Container className="form-div">
+            <Container className="form-div" data-aos="fade-up">
                 <div className="cta">
                     <h2>Vamos Conversar!😁</h2>
                     <p>Fique à vontade para entrar em contato comigo em qualquer rede social!</p>
@@ -21,9 +21,9 @@ const ContactMe = () => {
                     </ul>
                 </div>
                 <form action="https://formsubmit.co/cviniciusliramdev@gmail.com" method="POST">
-                    <input placeholder="Nome" name="name" />
-                    <input placeholder="Email" name="email" />
-                    <textarea name="message" placeholder="Digite sua mensagem"/>
+                    <input placeholder="Nome" name="name"  data-aos="fade-left" data-aos-delay="50"/>
+                    <input placeholder="Email" name="email" data-aos="fade-left" data-aos-delay="150"/>
+                    <textarea name="message" placeholder="Digite sua mensagem" data-aos="fade-left" data-aos-delay="250"/>
                     <BtnDefault type="submit">Enviar</BtnDefault>
                 </form>
             </Container>
