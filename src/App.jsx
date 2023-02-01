@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import Aside from './components/Aside';
+import NavDesk from './components/NavDesk';
 import Header from './components/Header';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
@@ -31,7 +30,7 @@ const App = () => {
     <div className="App">
       <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
         <MobMenu/>
-        <Aside/>
+        <NavDesk/>
         <Header/>
         <AboutMe/>
         <Technologies/>

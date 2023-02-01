@@ -7,7 +7,7 @@ import linkedin from "../../assets/linkedin.svg";
 import { useContext } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
 
-const Aside = () => {
+const NavDesk = () => {
 
     const { theme, handleTheme } = useContext(FunctionalitiesContext);
 
@@ -53,4 +53,4 @@ const Aside = () => {
     )
 }
 
-export default Aside
+export default NavDesk

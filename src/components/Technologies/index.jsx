@@ -9,6 +9,7 @@ import { useState } from "react";
 const Technologies = () => {
 
     const [ techDescription, setTechDescription ] = useState("");
+    const [animationDelay, setAnimationDelay] = useState(50);
 
     return(
         <StyledTech id="technologies">
