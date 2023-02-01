@@ -13,7 +13,7 @@ const NavDesk = () => {
 
     return(
         <StyledNav>
-            <button onClick={handleTheme}>
+            <button onClick={handleTheme} data-aos="fade-down" data-aos-delay="500">
                 <img src={theme === "light" ? sun : moon}/>
             </button>
             
