@@ -25,8 +25,8 @@ const AboutMe = () => {
                         <img src="https://github.com/vinisooo.png" alt="Vinícius Lira" />
                     </figure>
                     <Card title="Vinícius Lira" description="Desenvolvedor Front-end e Estudante de Desenvolvimento FullStack">
-                        <span>± 1 ano codando</span>
-                        <span>+30 projetos realizados</span>
+                        <span>Quase 1 ano codando</span>
+                        <span>+20 projetos realizados</span>
                     </Card>
                 </div>
 
