@@ -83,7 +83,7 @@ export const StyledMobMenu = styled.div`
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 16px;
+            font-size: 13px;
             padding: 0;
 
             background-color: transparent;
@@ -107,7 +107,7 @@ export const StyledMobMenu = styled.div`
 
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 45px;
             padding-right: 10px;
             padding-bottom: 60px;
 
@@ -119,7 +119,9 @@ export const StyledMobMenu = styled.div`
 
             text-decoration: none;
             font-weight: 700;
-            padding: 20px;
+            font-size: 12px;
+
+            padding: 30px;
 
             color: ${props => props.theme.colorText2};
         }
