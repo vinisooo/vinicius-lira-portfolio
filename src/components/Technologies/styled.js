@@ -37,6 +37,7 @@ export const StyledTech = styled.section`
         flex-direction: column;
 
         width: 100%;
+        margin-top: 70px;
 
         >p{
             margin-top: 60px;

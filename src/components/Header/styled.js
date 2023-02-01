@@ -18,11 +18,13 @@ export const StyledHeader = styled.header `
     position: relative;
 
     >div{
+        border-radius: 10px 10px 0 0 ;
+        background-color: ${props => props.theme.colorBG1};
+        
+        position: relative;
         width: 95vw;
         height: 95vh;
         transform: translateY(30px);
-        background-color: ${props => props.theme.colorBG1};
-
         >div{
             height: 100%;
 
