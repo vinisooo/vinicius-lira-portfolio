@@ -54,7 +54,7 @@ export const StyledProjects = styled.section`
             max-width: 500px;
             height: 300px;
 
-            opacity: 0.75;
+            opacity: 0.65;
 
             transform: translateX();
             overflow: hidden;
@@ -69,7 +69,7 @@ export const StyledProjects = styled.section`
         }
 
         li:hover figure{
-            opacity: 1;
+            opacity: 0.82;
         }
 
         li figure img{

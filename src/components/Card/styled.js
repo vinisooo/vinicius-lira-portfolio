@@ -38,15 +38,15 @@ export const StyledCard = styled.div`
         h4{
             font-family: 'Chivo Mono', monospace;
             font-size: 20px;
-            font-weight: 500;
+            font-weight: 600;
 
             cursor: default;
         }
         p{
-            font-size: 11px;
+            font-size: 10px;
             line-height: 150%;
 
-            font-weight: 300;
+            font-weight: 500;
             margin: 10px 0;
 
             cursor: default;
@@ -61,15 +61,14 @@ export const StyledCard = styled.div`
 
         div a{
             font-size: 12px;
-            font-weight: 300;
+            font-weight: 500;
 
             transition: 0.3s ease;
-            
+            text-decoration: none;
         }
 
         div a:hover{
-            text-decoration: none;
-            filter: brightness(0.6);
+            text-decoration: underline;
         }
 
         div span{
