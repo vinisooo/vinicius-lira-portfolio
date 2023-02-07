@@ -39,7 +39,7 @@ const NavDesk = () => {
                     <span>Contato</span>
                 </li>
             </ul>
-            <footer data-aos="fade-up">
+            <footer>
                 <a href="https://github.com/vinisooo" target="_blank">
                     <img src={github}/>
                 </a>
