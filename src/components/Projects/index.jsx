@@ -1,13 +1,12 @@
 import { Container } from "../../Styles/Container";
-import Card from "../Card";
-import SectionNumber from "../SectionNum";
 import { StyledProjects } from "./styled";
 
+import Card from "../Card";
+import SectionNumber from "../SectionNum";
+
 import { projects } from "../../data/Projects";
-import { useState } from "react";
 
 const Projects = () => {
-
     const toggleReverse = (num) => {
         if ( num % 2 !== 0){
             return "reverse-align"

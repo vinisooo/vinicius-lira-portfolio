@@ -1,7 +1,6 @@
 import { StyledSectionNum } from "./styled"
 
 const SectionNumber = ({ sectionNum, sectionTitle, color, row, sticky }) => {
-
     const getClasses = () => {
         if (row) {
             return "row-direction"

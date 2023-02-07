@@ -1,5 +1,6 @@
 import lightBG from "../../assets/topoLight.png";
 import darkBG from "../../assets/topoDark.jpg";
+
 import downloadIcon from "../../assets/downloadIcon.svg";
 
 import { LinkDefault } from "../../Styles/Buttons";
@@ -12,7 +13,6 @@ import { useContext } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
 
 const Header = () => {
-
     const { theme } = useContext(FunctionalitiesContext);
 
     return(

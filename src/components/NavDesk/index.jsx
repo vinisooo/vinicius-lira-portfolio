@@ -1,4 +1,5 @@
 import { StyledNav } from "./styled";
+
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import github from "../../assets/github.svg";
@@ -8,7 +9,6 @@ import { useContext } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
 
 const NavDesk = () => {
-
     const { theme, handleTheme } = useContext(FunctionalitiesContext);
 
     return(

@@ -2,7 +2,6 @@ import { Container } from "../../Styles/Container"
 import { StyledFooter } from "./styled"
 
 const Footer = () => {
-
     return(
         <StyledFooter>
             <Container data-aos="flip-left">
@@ -11,7 +10,6 @@ const Footer = () => {
             </Container>
         </StyledFooter>
     )
-
 }
 
 export default Footer

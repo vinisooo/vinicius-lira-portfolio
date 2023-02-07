@@ -7,12 +7,13 @@ import linkedin from "../../assets/linkedin.svg";
 
 import { useContext } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
+
 import { useEffect } from "react";
 
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
-const MobMenu = () => {
 
+const MobMenu = () => {
     const { theme, handleTheme, mobileMenu, setMobileMenu } = useContext(FunctionalitiesContext);
 
     const handleMenu = () => {
@@ -29,7 +30,6 @@ const MobMenu = () => {
         }
         document.addEventListener("click", clickOutToClose)
     })
-
     return(
         <StyledMobMenu>
             <button onClick={handleMenu} className={mobileMenu ? "open-menu" : ""}>
@@ -78,9 +78,8 @@ const MobMenu = () => {
                         </ul>
                         <footer>
                             <a href="https://github.com/vinisooo" target="_blank">
-                            <img src={github} alt="" />
+                                <img src={github} alt="" />
                             </a>
-                            
                             <a href="https://www.linkedin.com/in/vin%C3%ADcius-lira-a6294b244/" target="_blank">
                                 <img src={linkedin} alt="" />
                             </a>

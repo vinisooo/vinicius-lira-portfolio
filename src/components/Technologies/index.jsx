@@ -6,8 +6,8 @@ import { Container } from "../../Styles/Container";
 import { techData } from "../../data/Technologies";
 import { useState } from "react";
 
-const Technologies = () => {
 
+const Technologies = () => {
     const [ techDescription, setTechDescription ] = useState("");
 
     return(
@@ -30,9 +30,7 @@ const Technologies = () => {
                             })
                         }
                     </ul>
-
                     <p>{techDescription}</p>
-                    
                 </div>
             </Container>
         </StyledTech>

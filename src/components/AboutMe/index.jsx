@@ -1,5 +1,6 @@
 import { StyledAboutMe } from "./styled";
 import { Container } from "../../Styles/Container";
+
 import Card from "../Card";
 import SectionNumber from "../SectionNum";
 
@@ -9,8 +10,8 @@ import darkBG from "../../assets/topoDark.jpg";
 import { useContext, useState } from "react";
 import { FunctionalitiesContext } from "../../context/FunctContext";
 
-const AboutMe = () => {
 
+const AboutMe = () => {
     const { theme } = useContext(FunctionalitiesContext);
     const [ coWork, setCoWork ] = useState(false);
     
