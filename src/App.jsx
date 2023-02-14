@@ -16,6 +16,9 @@ import AboutMe from './components/AboutMe';
 import { useContext, useEffect } from 'react';
 import { FunctionalitiesContext } from './context/FunctContext';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize("UA-257222492-1")
+
 const App = () => {
   const {theme, handleTheme } = useContext(FunctionalitiesContext);
 
