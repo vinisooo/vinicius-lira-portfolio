@@ -23,6 +23,7 @@ const App = () => {
   const {theme, handleTheme } = useContext(FunctionalitiesContext);
 
   useEffect(()=>{
+    ReactGA.pageview(window.location.pathname);
     AOS.init({
       duration: 1200,
       once: true
