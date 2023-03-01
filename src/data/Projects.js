@@ -33,19 +33,26 @@ export const projects = [
         repo : "https://github.com/vinisooo/nu-kenzie",
         access: "https://react-entrega-s1-template-nu-kenzie-iyfdmnv4d-vinisooo.vercel.app/",
         description: "Aplicação de controle financeiro. Feito com React.JS e CSS"
-    }, 
+    },
     {
         gif: "https://imageup.me/images/3de38598-342d-4bda-98fa-46712a379c3d.gif",
         name: "Kenzie Burguer",
         repo: "https://github.com/vinisooo/kenzie-burguer-2",
         access: "https://hamburgueria-2-vinisooo-jxgxnep43-vinisooo.vercel.app/",
         description: "Hamburgueria. Feita com React, Typescript, Styled-Components, React-Router-DOM, React-Hook-Form, yup , Context API e REST API"
-    },   
+    },
     {
         gif: "https://i.postimg.cc/Z5LQ5F3z/league-of-match.gif",
         name: "League of Match",
         repo: "https://github.com/vinisooo/league-of-match",
         access: "https://lom-front-o8krp7x3c-vinisooo.vercel.app/",
         description: "Finder de duo para league of legends realizado em grupo. Feito com React, Typescript, Styled-Components, Fake API, React-Router-DOM, React-Hook-Form, yup , Context API e REST API"
-    },   
+    },
+    {
+        gif: "https://imageup.me/images/2c846c43-3e96-4bbc-abaa-60494775a714.png",
+        name: "Talk-GPT [Em desenvolvimento]",
+        repo: "https://github.com/vinisooo/Chat-GPT",
+        access: "https://chat-gpt-omega-plum.vercel.app",
+        description: "Bot Chat utilizando Inteligência artifical GPT-3, da OpenAI. Feito com React, Typescript, Styled-Components, Rest API e Context API"
+    },
 ]
