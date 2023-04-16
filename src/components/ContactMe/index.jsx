@@ -17,7 +17,7 @@ const ContactMe = () => {
                     <h2>Vamos Conversar!😁</h2>
                     <p>Fique à vontade para entrar em contato comigo em qualquer rede social!</p>
                     <ul>
-                        <li>{"+55 (92) 99228-1034"}</li>
+                        <li>{"+55 (47) 8863-8979"}</li>
                         <li>cviniciusliramdev@gmail.com</li>
                     </ul>
                 </div>
