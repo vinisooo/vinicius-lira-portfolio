@@ -30,6 +30,26 @@ export const techData = [
         description: "O Styled Components é uma biblioteca do React e do React Native que nos permite criar componentes de estilo ao escrever códigos CSS dentro de um arquivo JavaScript."
     },
     {
+        img: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
+        name: "NODEJS",
+        description: "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web."
+    },
+    {
+        img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+        name: "EXPRESSJS",
+        description: "Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web."
+    },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        name: "PYTHON",
+        description: "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte."
+    },
+    {
+        img: "https://brandslogos.com/wp-content/uploads/images/large/django-logo.png",
+        name: "DJANGO",
+        description: "Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view."
+    },
+    {
         img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         name: "GIT",
         description: "É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo"
