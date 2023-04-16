@@ -33,10 +33,10 @@ const AboutMe = () => {
 
                 <div className="about-me-text">
                     <h2>Sobre mim</h2>
-                    <p>Sou um desenvolvedor front-end apaixonado desde os meus 11 anos de idade por design e tecnologia. Desde
+                    <p>Sou um desenvolvedor Full-Stack apaixonado desde os meus 11 anos de idade por design e tecnologia. Desde
                         que decidi focar os estudos em desenvolvimento web, tenho trabalhado incansavelmente para aperfeiçoar minhas habilidades
                         . Hoje, tenho experiência em criar websites e aplicações web responsivas e funcionais, com habilidades em HTML, CSS, JavaScript,
-                        Typescript e React, além de diversas ferramentas
+                        Typescript, React, NodeJS, Python e Django, além de diversas ferramentas
                         que auxiliam no desenvolvimento dos projetos. Além disso, sou familiarizado com ferramentas de design, o que me permite criar layouts
                         e interfaces visuais atraentes. 
                     </p>
