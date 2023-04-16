@@ -35,7 +35,7 @@ export const techData = [
         description: "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web."
     },
     {
-        img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+        img: "https://www.kaustubh.app/img/expressjs.8f887594.svg",
         name: "EXPRESSJS",
         description: "Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web."
     },
@@ -45,7 +45,7 @@ export const techData = [
         description: "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte."
     },
     {
-        img: "https://brandslogos.com/wp-content/uploads/images/large/django-logo.png",
+        img: "https://www.svgrepo.com/show/353657/django-icon.svg",
         name: "DJANGO",
         description: "Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view."
     },
@@ -53,5 +53,10 @@ export const techData = [
         img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         name: "GIT",
         description: "É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo"
+    },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+        name: "FIGMA",
+        description: "Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web."
     }
 ]

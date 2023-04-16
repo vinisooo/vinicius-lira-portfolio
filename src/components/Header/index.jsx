@@ -27,7 +27,7 @@ const Header = () => {
                             <h1>Vinícius Lira</h1>
                         </div>
 
-                        <p>Desenvolvedor Full-Stack</p>
+                        <p>Desenvolvedor Full-Stack 👨💻</p>
                         <LinkDefault target="_blank" href="https://drive.google.com/file/d/1x1EBWuns5XjEU6EsM8Ht6O5AjMwF6r_L/view?usp=sharing">
                             Baixar Curriculum
                             <img src={downloadIcon} />
