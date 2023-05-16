@@ -34,7 +34,6 @@ const Header = () => {
                         </LinkDefault>
 
                     </div>
-                    <span>Joinville - SC - 2004</span>
                 </Container>
             </div>
         </StyledHeader>
