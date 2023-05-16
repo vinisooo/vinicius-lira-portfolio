@@ -28,7 +28,10 @@ const Projects = () => {
                                         </figure>
                                         <Card title={pr.name} description={pr.description}>
                                             <a target="_blank" href={pr.repo}>Ver repositório</a>
-                                            <a target="_blank" href={pr.access}>Acessar projeto</a>
+                                            {
+                                                pr.access &&
+                                                <a target="_blank" href={pr.access}>Acessar projeto</a>
+                                            }
                                         </Card>
                                     </li>
                                 )
