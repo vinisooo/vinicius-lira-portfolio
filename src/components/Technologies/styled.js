@@ -75,6 +75,8 @@ export const StyledTech = styled.section`
             height: 100px;
             opacity: 0.8;
 
+            position: relative;
+
         }
 
         li:hover{

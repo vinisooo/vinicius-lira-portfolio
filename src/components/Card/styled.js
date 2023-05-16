@@ -23,6 +23,21 @@ export const StyledCard = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    position: relative;
+
+    :before{
+        content: "";
+        position: absolute;
+        height: 150%;
+        width: 45px;
+        background-color: var(--color-white);
+        filter: blur(10px);
+        opacity: 0.9;
+        transform: rotate(25deg) translateX(-100px);
+        transition: 0.7s ease;
+    }
+
+
     > div{
         min-height: 100%;
         width: 100%;
@@ -101,6 +116,9 @@ export const StyledCard = styled.div`
         transform: translateY(3px) translateX(-3px);
         box-shadow: none;
 
+        :before{
+            transform: translateX(450px) rotate(10deg);
+        }
     }
 
 `
