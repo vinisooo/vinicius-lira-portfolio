@@ -3,7 +3,7 @@ export const projects = [
         gif: "https://i.postimg.cc/Z5LQ5F3z/league-of-match.gif",
         name: "League of Match",
         repo: "https://github.com/vinisooo/league-of-match",
-        access: "https://lom-front-o8krp7x3c-vinisooo.vercel.app/",
+        access: "https://league-of-match-steel.vercel.app",
         description: "Finder de duo para league of legends realizado em grupo. Feito com React, Typescript, Styled-Components, React-Router-DOM, React-Hook-Form, yup , Context API, Python e Django"
     },
     {
