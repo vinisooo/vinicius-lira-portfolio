@@ -82,6 +82,19 @@ export const StyledContactMe = styled.section`
 
             max-width: 100%;
             max-height: 400px;
+
+            font-family: 'Montserrat', sans-serif;
+            color: ${props => props.theme.colorText2};
+            font-weight: 600;
+        }
+        transition: 0.3s ease;
+        
+        input:hover,textarea:hover{
+            border-bottom: 3px solid ${props => props.theme.colorText1};
+        }
+        input::placeholder, textarea::placeholder{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
         }
     }
 

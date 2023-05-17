@@ -16,7 +16,7 @@ export const StyledCard = styled.div`
 
     transition: 0.3s ease;
 
-    background-color: rgba(250,250,250,.20);
+    background-color: rgba(250,250,250,.25);
     backdrop-filter: blur(32px);
 
     display: flex;
