@@ -56,19 +56,16 @@ export const projects = [
         description: "E-commerce de roupas. Feito com HTML, css e Javascript"
     },
     {
-        gif: "https://imageup.me/images/cb486941-0c36-45ff-81f4-e0f2e2c0b03a.png",
+        gif: "https://yourimageshare.com/ib/QguwjGEJ5M.webp",
         name: "KiMoveis API",
         repo: "https://github.com/vinisooo/kimoveisAPI",
         description: "API Rest para imobiliária. Feita com NodeJS, Typescript, Express, TypeORM e PostgresSQL"
     },
     {
-        gif: "https://imageup.me/images/cb486941-0c36-45ff-81f4-e0f2e2c0b03a.png",
+        gif: "https://yourimageshare.com/ib/QguwjGEJ5M.webp",
         name: "Socialize API",
         repo: "https://github.com/vinisooo/socialize_api",
         access: "https://socializeapi.onrender.com/api/docs/swagger-ui/",
         description: "API Rest para rede social realizada em equipe. Feita com Python, Django Rest Framework e PostgresSQL"
     },
 ]
-
-
-// https://imageup.me/images/cb486941-0c36-45ff-81f4-e0f2e2c0b03a.png
