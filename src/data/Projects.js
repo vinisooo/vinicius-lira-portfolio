@@ -56,13 +56,13 @@ export const projects = [
         description: "E-commerce de roupas. Feito com HTML, css e Javascript"
     },
     {
-        gif: "https://yourimageshare.com/ib/QguwjGEJ5M.webp",
+        gif: "https://www.wpdownloadmanager.com/wp-content/uploads/2014/10/WordPress-Download-Manager-API.png",
         name: "KiMoveis API",
         repo: "https://github.com/vinisooo/kimoveisAPI",
         description: "API Rest para imobiliária. Feita com NodeJS, Typescript, Express, TypeORM e PostgresSQL"
     },
     {
-        gif: "https://yourimageshare.com/ib/QguwjGEJ5M.webp",
+        gif: "https://www.wpdownloadmanager.com/wp-content/uploads/2014/10/WordPress-Download-Manager-API.png",
         name: "Socialize API",
         repo: "https://github.com/vinisooo/socialize_api",
         access: "https://socializeapi.onrender.com/api/docs/swagger-ui/",
