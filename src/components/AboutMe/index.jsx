@@ -34,11 +34,11 @@ const AboutMe = () => {
                 <div className="about-me-text">
                     <h2>Sobre mim</h2>
                     <p>Sou um desenvolvedor Full-Stack apaixonado desde os meus 11 anos de idade por design e tecnologia. Desde
-                        que decidi focar os estudos em desenvolvimento web, tenho trabalhado incansavelmente para aperfeiçoar minhas habilidades
-                        . Hoje, tenho experiência em criar websites e aplicações web responsivas e funcionais, com habilidades em HTML, CSS, JavaScript,
-                        Typescript, React, NodeJS, Express, Python, Django e PostgreSQL, além de diversas ferramentas
-                        que auxiliam no desenvolvimento dos projetos. Além disso, sou familiarizado com ferramentas de design, o que me permite criar layouts
-                        e interfaces visuais atraentes. 
+                        que decidi focar os estudos em desenvolvimento web, tenho trabalhado incansavelmente para aperfeiçoar minhas habilidades.
+                    </p>
+                    <p>
+                        Hoje, tenho experiência em criar websites e aplicações web responsivas e funcionais, com habilidades em HTML, CSS, JavaScript, TypeScript, React, Styled-Components, Sass, Node.js, Express, TypeORM, PrismaORM, Python, Django, Git e PostgreSQL, além de diversas outras ferramentas
+                        que auxiliam no desenvolvimento dos projetos. Além disso, sou familiarizado com ferramentas de design, o que me permite criar layouts e interfaces visuais atraentes. 
                     </p>
                     <p>
                         Estou sempre em busca de novos desafios e oportunidades para trabalhar em projetos em equipe e colaborar com outros profissionais da área. 

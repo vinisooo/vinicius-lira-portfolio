@@ -25,9 +25,19 @@ export const techData = [
         description: "React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web"
     },
     {
+        img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png",
+        name: "NEXTJS",
+        description: "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React"
+    },
+    {
         img: "https://cdn-media-1.freecodecamp.org/images/1*p1TndLk3UsGPBsM7qHPZIw.png",
         name: "STYLED-COMPONENTS",
         description: "O Styled Components é uma biblioteca do React e do React Native que nos permite criar componentes de estilo ao escrever códigos CSS dentro de um arquivo JavaScript."
+    },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png",
+        name: "SASS",
+        description: "O SASS É uma linguagem de estilização. A sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações e outras opções variadas que iremos comentar."
     },
     {
         img: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
@@ -48,6 +58,11 @@ export const techData = [
         img: "https://www.svgrepo.com/show/353657/django-icon.svg",
         name: "DJANGO",
         description: "Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view."
+    },
+    {
+        img: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
+        name: "DOCKER",
+        description: "Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres."
     },
     {
         img: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",

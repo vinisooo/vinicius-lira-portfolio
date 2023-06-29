@@ -147,7 +147,7 @@ export const StyledTech = styled.section`
         }
 
         ul{
-            gap: 20px;
+            gap: 40px;
         }
 
         ul li{
