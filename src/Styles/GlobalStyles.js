@@ -31,9 +31,10 @@ export const GlobalStyles = createGlobalStyle`
         line-height: 1;
         font-family: 'Montserrat', sans-serif;
 
+        max-width: 100vw;
         overflow-x: hidden;
     }
-
+   
     ol, ul {
         list-style: none;
     }
@@ -95,5 +96,11 @@ export const GlobalStyles = createGlobalStyle`
 
     h2{
         transition: 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+        body{
+            overflow-x: hidden;
+        }
     }
 `

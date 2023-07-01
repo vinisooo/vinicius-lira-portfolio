@@ -48,7 +48,8 @@ export const StyledLightEffect = styled.span`
 `
 
 export const StlyedLightEffects = styled.div`
-
+    position: relative;
+    width: 100%;
     max-width: 100vw;
     overflow: hidden;
 `

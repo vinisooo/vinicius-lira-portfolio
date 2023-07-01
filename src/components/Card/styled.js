@@ -12,12 +12,12 @@ export const StyledCard = styled.div`
     border-radius: 16px;
     border: 2px solid ${props => props.theme.aboutMeBG};
 
-    box-shadow:  -3px 5px 10px 0 rgba(0,0,0, 0.3);
+    box-shadow:  -3px 5px 10px 0 rgba(0,0,0, 0.5);
 
     transition: 0.3s ease;
 
     background-color: rgba(250,250,250,.25);
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(20px);
 
     display: flex;
     justify-content: space-between;
