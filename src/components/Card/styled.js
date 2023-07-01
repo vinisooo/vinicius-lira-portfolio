@@ -12,7 +12,7 @@ export const StyledCard = styled.div`
     border-radius: 16px;
     border: 2px solid ${props => props.theme.aboutMeBG};
 
-    box-shadow:  -3px 5px 10px 0 rgba(0,0,0, 0.5);
+    box-shadow:  -3px 5px 10px 0 rgba(0,0,0, 0.3);
 
     transition: 0.3s ease;
 
@@ -65,6 +65,7 @@ export const StyledCard = styled.div`
             margin: 10px 0;
 
             cursor: default;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
         }
 
         >div{
