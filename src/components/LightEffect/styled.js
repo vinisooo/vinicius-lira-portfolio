@@ -10,7 +10,6 @@ export const StyledLightEffect = styled.span`
 
     background: radial-gradient(circle at center, ${props => props.theme.lightEffect},transparent,transparent);
 
-
     position: absolute;
     top: ${props => props.top ? props.top : 0}vh;
     right: ${props => props.right ? props.right : 0}vw;
@@ -22,28 +21,34 @@ export const StyledLightEffect = styled.span`
 
     pointer-events: none;
 
-    opacity: 0.5;
+    opacity: 0.4;
 
     @keyframes twinkingLight {
         30%{
-            opacity: 0.5;
+            opacity: 0.4;
         }70%{
-            opacity: 0.3;
+            opacity: 0.2;
         }100%{
-            opacity: 0.5;
+            opacity: 0.4;
         }
     }
 
     @media (min-width: 1400px) {
-        opacity: 0.8;
+        opacity: 0.6;
         @keyframes twinkingLight {
             30%{
-                opacity: 0.8;
+                opacity: 0.6;
             }70%{
-                opacity: 0.5;
+                opacity: 0.4;
             }100%{
-                opacity: 0.8;
+                opacity: 0.6;
             }
         }
     }
+`
+
+export const StlyedLightEffects = styled.div`
+
+    max-width: 100vw;
+    overflow: hidden;
 `

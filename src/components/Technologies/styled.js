@@ -14,6 +14,12 @@ export const StyledTech = styled.section`
 
     background-color: ${props => props.theme.colorBG1};
 
+    :hover{
+        h2{
+            color: ${props => props.theme.colorSection};
+        }
+    }
+
     > div {
         display: flex;
         align-items: center;
@@ -86,7 +92,7 @@ export const StyledTech = styled.section`
             }
 
             h4{
-                color: var(--color-brand-1);
+                color: ${props => props.theme.colorSection}
             }
         }
 

@@ -104,17 +104,21 @@ export const StyledNav = styled.nav`
 
         transition: 0.3s ease;
 
-        background-color: var(--color-brand-1);
+        background-color: ${props => props.theme.colorSection};
+        box-shadow: 0 0 10px 0 ${props => props.theme.colorSection};
     }
 
     ul li{
         position: relative;
 
         span{
-            display: none;
+            /* display: none; */
             position: absolute;
 
             pointer-events: none;
+
+            opacity: 0;
+            transform: translateX(100px);
 
             left: 50px;
             top: -10px;
@@ -131,18 +135,20 @@ export const StyledNav = styled.nav`
             height: 40px;
             padding: 15px;
             text-align: center;
-            animation: displaySpan 0.3s ease;
+            
+            transition: 0.3s ease;
         }
     }
     
     ul li:hover{
 
         span{
-            display: flex;
+            opacity: 1;
+            transform: translateX(0);
         }
 
         a{
-            color: var(--color-brand-1);
+            color: ${props => props.theme.colorSection};
 
             ::after{
                 width: 100%;
@@ -164,16 +170,6 @@ export const StyledNav = styled.nav`
 
         padding: 10px;
         background-color: var(--color-brand-1);
-    }
-
-    @keyframes displaySpan {
-        0%{
-            transform: translateX(-100vw);
-            opacity: 0;
-        }100%{
-            transform: translateX(0);
-            opacity: 1;
-        }
     }
 
 `

@@ -11,6 +11,12 @@ export const StyledProjects = styled.section`
 
     background-color: ${props => props.theme.colorBG1};
 
+    :hover{
+        h2{
+            color: ${props => props.theme.colorSection};
+        }
+    }
+    
     >div{
         display: flex;
         justify-content: space-between;

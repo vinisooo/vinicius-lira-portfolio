@@ -25,6 +25,13 @@ export const StyledHeader = styled.header `
         width: 95vw;
         height: 95vh;
         transform: translateY(30px);
+
+        :hover{
+            h4{
+                color: ${props => props.theme.colorSection};
+            }
+        }
+
         >div{
             height: 100%;
 
@@ -51,10 +58,11 @@ export const StyledHeader = styled.header `
             padding: 30px 0;
             padding-bottom: 60px;
     
-            border-top: 2px solid ${props => props.theme.colorText2};
+            border-top: 2px solid var(--color-brand-1);
 
             font-size: 14px;
-            color: ${props => props.theme.colorText2};
+            color: ${props => props.theme.colorText1};
+            font-weight: 500;
     }
 
 

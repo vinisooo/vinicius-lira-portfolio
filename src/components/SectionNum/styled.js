@@ -28,14 +28,14 @@ export const StyledSectionNum = styled.div`
 
     h3{
         font-size: 30px;
-        color: ${props => props.color || props.theme.colorText2};
+        color: ${props => props.color || props.theme.colorSection};
         font-weight: 800;
 
         font-family: 'Chivo Mono', monospace;
     }
 
     p{
-        color: ${props => props.color || props.theme.colorText2};
+        color: ${props => props.color || props.theme.colorSection};
         font-size: 12px;
 
         position: relative;
@@ -50,7 +50,7 @@ export const StyledSectionNum = styled.div`
         height: 1px;
         
 
-        background-color: ${props => props.color || props.theme.colorText2};
+        background-color: ${props => props.color || props.theme.colorSection};
     }
 
     @media (min-width: 700px) {
