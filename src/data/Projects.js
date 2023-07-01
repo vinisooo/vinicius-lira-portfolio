@@ -14,7 +14,7 @@ export const projects = [
         description: "Estudo de estilização com SASS. Feito com ReactJS e SASS"
     },
     {
-        gif: "https://imageup.me/images/3de38598-342d-4bda-98fa-46712a379c3d.gif",
+        gif: "https://i.postimg.cc/7P1fcwML/ezgif-com-video-to-gif-2.gif",
         name: "Kenzie Burguer",
         repo: "https://github.com/vinisooo/kenzie-burguer-2",
         access: "https://hamburgueria-2-vinisooo-jxgxnep43-vinisooo.vercel.app/",
