@@ -33,19 +33,22 @@ const App = () => {
   }, [])
 
   return (
-    <div className="App">
-      <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
-        <LightEffects/>
-        <MobMenu/>
-        <NavDesk/>
-        <Header/>
-        <AboutMe/>
-        <Technologies/>
-        <Projects/>
-        <ContactMe/>
-        <Footer/>
-      </ThemeProvider>
-    </div>
+    <>
+      <LightEffects/>
+      <div className="App">
+        <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
+          <LightEffects/>
+          <MobMenu/>
+          <NavDesk/>
+          <Header/>
+          <AboutMe/>
+          <Technologies/>
+          <Projects/>
+          <ContactMe/>
+          <Footer/>
+        </ThemeProvider>
+      </div>
+    </>
   );
 }
 

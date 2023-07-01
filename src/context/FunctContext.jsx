@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 export const FunctionalitiesContext = createContext({});
 
 const FunctionalitiesProvider = ({children}) => {
-    const [ theme, setTheme ] = useState(localStorage.getItem("@vinicius-lira: theme-preference") || "light");
+    const [ theme, setTheme ] = useState(localStorage.getItem("@vinicius-lira: theme-preference") || "dark");
     const [ mobileMenu, setMobileMenu ] = useState(false);
 
     const handleTheme = () =>{

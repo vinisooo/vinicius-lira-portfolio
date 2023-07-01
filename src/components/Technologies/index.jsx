@@ -13,7 +13,7 @@ const Technologies = () => {
     return(
         <StyledTech id="technologies">
             <Container data-aos="fade-up">
-                <SectionNumber sectionNum="03" sectionTitle="Tecnologias" color="var(--color-brand-1)" />
+                <SectionNumber sectionNum="03" sectionTitle="Tecnologias" />
                 <div className="technologies">
                     <h2>Tecnologias</h2>
                     <ul>

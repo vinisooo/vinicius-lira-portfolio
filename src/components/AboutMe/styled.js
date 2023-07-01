@@ -44,9 +44,6 @@ export const StyledAboutMe = styled.section`
 
     .dev > figure{
 
-        background: rgb(60,110,113);
-        background: linear-gradient(90deg, rgba(60,110,113,1) 0%, rgba(112,174,110,1) 50%, rgba(40,75,99,1) 100%);
-        
         width: 250px;
         height: 250px;
 

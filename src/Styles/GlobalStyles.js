@@ -30,10 +30,7 @@ export const GlobalStyles = createGlobalStyle`
     body{
         line-height: 1;
         font-family: 'Montserrat', sans-serif;
-    }
 
-    .App{
-        position: relative;
         overflow-x: hidden;
     }
 
@@ -72,13 +69,13 @@ export const GlobalStyles = createGlobalStyle`
         --color-black: #000000;
         --color-white: #ffffff;
 
-        --color-grey-1: #353535;
-        --color-grey-2: #696773;
-        --color-grey-3: #D9D9D9;
+        --color-grey-1: #141414;
+        --color-grey-2: #7C7C7C;
+        --color-grey-3: #EEF0F4;
 
-        --color-brand-1: #3C6E71;
-        --color-brand-2: #284B63;
-        --color-brand-3: #70AE6E;
+        --color-brand-1: #272635;
+        --color-brand-2: #222a68;
+        --color-brand-3: #9f66ff;
     }
     ::-webkit-scrollbar
     {
@@ -94,5 +91,9 @@ export const GlobalStyles = createGlobalStyle`
     ::-webkit-scrollbar-thumb
     {
       background: var(--color-brand-1)
+    }
+
+    h2{
+        transition: 0.3s ease;
     }
 `

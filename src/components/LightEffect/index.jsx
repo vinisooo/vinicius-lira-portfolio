@@ -1,4 +1,4 @@
-import { StyledLightEffect } from "./styled"
+import { StlyedLightEffects, StyledLightEffect } from "./styled"
 
 const LightEffect = ({top, right, bottom, left}) => {
     return (
@@ -10,12 +10,12 @@ const LightEffect = ({top, right, bottom, left}) => {
 
 const LightEffects = () => {
     return(
-        <>
+        <StlyedLightEffects>
             <LightEffect top={-290} right={-150}/>
             <LightEffect top={-110} right={20} delay={2}/>
-            <LightEffect top={250} right={-150}/>
-            <LightEffect top={550} right={20} delay={2}/>
-        </>
+            <LightEffect top={250} right={-170}/>
+            <LightEffect top={550} right={40} delay={2}/>
+        </StlyedLightEffects>
     )
 }
 

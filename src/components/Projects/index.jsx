@@ -40,7 +40,7 @@ const Projects = () => {
                         }
                     </ul>
                 </div>
-                <SectionNumber sticky={true} sectionNum="4" sectionTitle="Projetos" color="var(--color-brand-1)"></SectionNumber>
+                <SectionNumber sticky={true} sectionNum="4" sectionTitle="Projetos"></SectionNumber>
             </Container>
         </StyledProjects>
     )

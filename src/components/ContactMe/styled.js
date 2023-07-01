@@ -89,8 +89,8 @@ export const StyledContactMe = styled.section`
         }
         transition: 0.3s ease;
         
-        input:hover,textarea:hover{
-            border-bottom: 3px solid ${props => props.theme.colorText1};
+        input:hover, textarea:hover{
+            border-bottom: 3px solid var(--color-brand-3);
         }
         input::placeholder, textarea::placeholder{
             font-family: 'Montserrat', sans-serif;
