@@ -5,6 +5,7 @@ import Card from "../Card";
 import SectionNumber from "../SectionNum";
 
 import { projects } from "../../data/Projects";
+import LightEffect from "../LightEffect";
 
 const Projects = () => {
     const toggleReverse = (num) => {

@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ContactMe from './components/ContactMe';
 import MobMenu from './components/MobMenu';
+import LightEffects from './components/LightEffect';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -17,6 +18,7 @@ import { useContext, useEffect } from 'react';
 import { FunctionalitiesContext } from './context/FunctContext';
 
 import ReactGA from 'react-ga';
+
 ReactGA.initialize("UA-257222492-1")
 
 const App = () => {
@@ -33,6 +35,7 @@ const App = () => {
   return (
     <div className="App">
       <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
+        <LightEffects/>
         <MobMenu/>
         <NavDesk/>
         <Header/>

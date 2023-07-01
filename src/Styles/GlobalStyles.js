@@ -27,11 +27,15 @@ export const GlobalStyles = createGlobalStyle`
     footer, header, hgroup, menu, nav, section {
         display: block;
     }
-    body {
+    body{
         line-height: 1;
         font-family: 'Montserrat', sans-serif;
     }
 
+    .App{
+        position: relative;
+        overflow-x: hidden;
+    }
 
     ol, ul {
         list-style: none;

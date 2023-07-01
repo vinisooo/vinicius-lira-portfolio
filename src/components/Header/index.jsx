@@ -20,7 +20,6 @@ const Header = () => {
             <div>
                 <Container data-aos="fade-up">
                     <SectionNumber sectionNum="01" sectionTitle="Início" color="var(--color-brand-1)"/>
-
                     <div className="greetings">
                         <div>
                             <span>Olá!👋 meu nome é </span>
