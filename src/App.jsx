@@ -18,6 +18,8 @@ import { useContext, useEffect } from 'react';
 import { FunctionalitiesContext } from './context/FunctContext';
 
 import ReactGA from 'react-ga';
+import { StlyedLightEffects, StyledLightEffect } from './components/LightEffect/styled';
+import LightEffectContainer from './components/LightEffect';
 
 ReactGA.initialize("UA-257222492-1")
 
@@ -34,18 +36,18 @@ const App = () => {
 
   return (
     <>
-      <LightEffects/>
       <div className="App">
         <ThemeProvider theme={theme === "light"? lightTheme : darkTheme}>
-          <LightEffects/>
-          <MobMenu/>
-          <NavDesk/>
-          <Header/>
-          <AboutMe/>
-          <Technologies/>
-          <Projects/>
-          <ContactMe/>
-          <Footer/>
+        <LightEffectContainer>
+            <MobMenu/>
+            <NavDesk/>
+            <Header/>
+            <AboutMe/>
+            <Technologies/>
+            <Projects/>
+            <ContactMe/>
+            <Footer/>
+        </LightEffectContainer>
         </ThemeProvider>
       </div>
     </>
