@@ -1,5 +1,12 @@
 export const projects = [
     {
+        gif: "https://i.postimg.cc/zDsZ1PXQ/ezgif-com-video-to-gif-3.gif",
+        name: "Motors Shop",
+        repo: "https://github.com/vinisooo/motors-shop-frontend",
+        access: "https://motors-shop-frontend-theta.vercel.app/",
+        description: "Site de venda e compra de veículos. Feito com NextJS, Typescript, SASS, ZOD, NodeJS, Express, TypeORM e PostgreSQL"
+    },
+    {
         gif: "https://i.postimg.cc/Z5LQ5F3z/league-of-match.gif",
         name: "League of Match",
         repo: "https://github.com/vinisooo/league-of-match",
