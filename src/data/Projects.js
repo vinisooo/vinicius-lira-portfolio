@@ -15,7 +15,7 @@ export const projects = [
     },
     {
         gif: "https://i.postimg.cc/4x6YFCSf/ezgif-com-video-to-gif-1.gif",
-        name: "Primeiro SASS",
+        name: "Estilização com SASS",
         repo : "https://github.com/vinisooo/first-sass-application",
         access: "https://first-sass-application.vercel.app",
         description: "Estudo de estilização com SASS. Feito com ReactJS e SASS"

@@ -8,6 +8,12 @@ export const StyledSectionNum = styled.div`
     top: 15px;
     left: 15px;
 
+    &.sticky {
+        position: sticky;
+        top: 15px;
+        left: 15px;
+    }
+
     transition: 0.3s ease;
 
     cursor: default;

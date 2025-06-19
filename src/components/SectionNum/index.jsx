@@ -4,7 +4,7 @@ const SectionNumber = ({ sectionNum, sectionTitle, color, row, sticky }) => {
     const getClasses = () => {
         if (row) {
             return "row-direction"
-        }if (sticky){
+        } else if (sticky) {
             return "sticky"
         }
     }
